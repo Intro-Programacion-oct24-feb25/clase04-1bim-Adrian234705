@@ -1,9 +1,9 @@
 /*
-René Rolando
+Adrian Ricardo 
 
-Elizalde Solano
+Urgiles Medina 
 
-1983
+2005
  */
 package ejemplo01;
 
@@ -11,12 +11,13 @@ package ejemplo01;
  *
  * @author reroes
  */
-public class Ejemplo05 {
+public class Ejemplo10 {
     public static void main(String[] args) {
         // Secuencia de escape \n y \t
-        String nombreEstudiante = "René Rolando";
-        String apellidoEstudiante = "Elizalde Solano";
-        int nacimiento = 1983;
+        String nombreEstudiante = "Adrian Ricardo";
+        String apellidoEstudiante = "Urgiles Medina";
+        int nacimiento = 2005;
+        int edad = 19; 
         
         /*System.out.println(nombreEstudiante+"\n"+apellidoEstudiante+ "\n"+ 
                 nacimiento);
@@ -26,9 +27,8 @@ public class Ejemplo05 {
         
         System.out.println(nombreEstudiante+"\n"+"\n"+apellidoEstudiante+ "\n"+
                 "\n"+ nacimiento); */
-        System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
-        System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);
-         System.out.println(nombreEstudiante+"\n\t"+apellidoEstudiante);   
+         System.out.println(nombreEstudiante+"\t"+apellidoEstudiante);   
+        System.out.println(nombreEstudiante+"\n\n\t"+edad);   
 
     }
 }
